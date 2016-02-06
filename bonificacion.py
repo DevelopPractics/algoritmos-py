@@ -8,3 +8,10 @@ if MV >= 0 and MV <1000:
 elif MV >= 1000 and MV < 5000:
 	TB = (3*MV)/100
 	print "Tu bonificacion es: ", TB
+elif MV >= 5000 and MV < 20000:
+	TB = (5*MV)/100
+	print "Tu bonificacion es: ", TB
+elif MV >= 20000:
+	TB = (8*MV)/100
+	print "Tu bonificacion es: ", TB
+		
