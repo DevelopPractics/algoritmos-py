@@ -1,6 +1,6 @@
 # Calculador de bonificacion de ventas
 
-MV = raw_input("Monto venta: ")
+MV = int(raw_input("Monto venta: "))
 
 if MV >= 0 and MV <1000:
 	TB = (0*MV)/100
